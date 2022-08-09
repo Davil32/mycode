@@ -20,14 +20,14 @@ def showStatus():
     """determine the current status of the player"""
     #print the player's current status
     print('---------------------------')
-    print('You are heading to ' + currentRoom)
+    print('You are heading towards ' + currentRoom)
     #print the current inventory
     print('Inventory : ' + str(inventory))
     #print an item if there is one
     if "item" in rooms[currentRoom]:
-      print('You see an ' + rooms[currentRoom]['item'])
+      print('You see the ' + rooms[currentRoom]['item'])
     if "attack" in rooms[currentRoom]:
-      print('You see a ' + rooms[currentRoom]['attack'])
+      print('You encounter the ' + rooms[currentRoom]['attack'])
     print("---------------------------")
 
 
