@@ -71,7 +71,7 @@ def hangman():
             # prints out a continuous message when inputting a letter
         else:
             print('\nThat is not the letter you need.')
-"""displays the end result of the game"""
+
     # gets here when len(word_letters) == 0 OR when tries == 0
     # displays the visual to show the progression of the tool and character
     # the cprint argument will display an output once the game is lost
